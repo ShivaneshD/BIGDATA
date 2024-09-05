@@ -20,3 +20,10 @@ hadoop jar /home/shivanesh/hadoop-2.9.1/share/hadoop/tools/lib/hadoop-streaming-
 -mapper /home/shivanesh/WeatherAnalytics/scripts/mapper_seasonal.py \
 -reducer /home/shivanesh/WeatherAnalytics/scripts/reducer_seasonal.py
 
+
+hdfs dfs -get /user/hadoop/weather_analytics/output/avg_temp /home/shivanesh/WeatherAnalytics/results/
+hdfs dfs -get /user/hadoop/weather_analytics/output/total_rainfall /home/shivanesh/WeatherAnalytics/results/
+hdfs dfs -get /user/hadoop/weather_analytics/output/seasonal_trends /home/shivanesh/WeatherAnalytics/results/
+hdfs dfs -get /user/hadoop/weather_analytics/output/avg_temp /home/shivanesh/WeatherAnalytics/results/
+hdfs dfs -get /user/hadoop/weather_analytics/output/total_rainfall /home/shivanesh/WeatherAnalytics/results/
+hdfs dfs -get /user/hadoop/weather_analytics/output/seasonal_trends /home/shivanesh/WeatherAnalytics/results/
