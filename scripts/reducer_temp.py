@@ -1,4 +1,5 @@
-# hadoop/reducer_temp.py
+#!/usr/bin/env python3
+# # hadoop/reducer_temp.py
 import sys
 
 # Reducer function to calculate the average temperature

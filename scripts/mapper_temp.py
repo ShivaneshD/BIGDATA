@@ -1,4 +1,5 @@
-# hadoop/mapper_temp.py
+#!/usr/bin/env python3
+# # hadoop/mapper_temp.py
 import sys
 
 # Mapper function to extract temperature values

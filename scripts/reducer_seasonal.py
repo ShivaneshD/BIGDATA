@@ -1,4 +1,5 @@
-# hadoop/reducer_seasonal.py
+#!/usr/bin/env python3
+# # hadoop/reducer_seasonal.py
 import sys
 
 # Reducer function to calculate monthly averages

@@ -1,4 +1,5 @@
-# hadoop/mapper_seasonal.py
+#!/usr/bin/env python3
+# # hadoop/mapper_seasonal.py
 import sys
 
 # Mapper function to extract month and temperature/rainfall data

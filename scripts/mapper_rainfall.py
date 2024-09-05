@@ -1,4 +1,5 @@
-# hadoop/mapper_rainfall.py
+#!/usr/bin/env python3
+# # hadoop/mapper_rainfall.py
 import sys
 
 # Mapper function to extract rainfall data
