@@ -43,11 +43,13 @@ The scripts in the scripts/ directory can be run to perform various data analysi
 Tasks
 Task 1: Data Preprocessing
 Description: Clean and preprocess raw weather data to make it suitable for analysis.
-Files: scripts/data_preprocessing.py
+Files: data/chennai_weather_preprocessed.csv
 Key Functions: Data cleaning, missing value handling, feature extraction.
 Task 2: Data Analysis
 Description: Analyze the processed weather data to identify patterns and trends.
-Files: scripts/data_analysis.py
+Files: scripts/seasonal_trends.py
+       scripts/average_temperature.py
+       scripts/total_rainfall.py
 Key Functions: Statistical analysis, trend detection, correlation analysis.
 Task 3: Data Visualization
 Description: Visualize the analyzed data to create meaningful charts and graphs.
