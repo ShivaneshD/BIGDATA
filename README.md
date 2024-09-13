@@ -15,26 +15,19 @@ README.md: This file, which provides an overview and instructions for the projec
 Setup Instructions
 To set up the project environment, follow these steps:
 
-Clone the Repository:
+Clone the Repository
 
-bash
-Copy code
 git clone https://github.com/ShivaneshD/WeatherAnalytics.git
 Navigate to the Project Directory:
 
-bash
-Copy code
 cd WeatherAnalytics
 Create and Activate a Virtual Environment:
 
-bash
-Copy code
+
 python3 -m venv .venv
 source .venv/bin/activate
 Install Required Packages:
 
-bash
-Copy code
 pip install -r requirements.txt
 Run the Scripts:
 
@@ -53,7 +46,7 @@ Files: scripts/seasonal_trends.py
 Key Functions: Statistical analysis, trend detection, correlation analysis.
 Task 3: Data Visualization
 Description: Visualize the analyzed data to create meaningful charts and graphs.
-Files: scripts/data_visualization.py
+Files: scripts/seasonal_trends.py
 Key Functions: Chart creation, graphical representation of trends, interactive visualizations.
 Contributing
 If you'd like to contribute to the project, please fork the repository and submit a pull request with your changes. Ensure that your code is well-documented and tested before submitting.
