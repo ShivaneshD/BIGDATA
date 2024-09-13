@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv('/home/shivanesh/WeatherAnalytics/data/chennai_weather_preprocessed.csv')
+df = pd.read_csv('/home/shivanesh//data/chennai_weather_preprocessed.csv')
 
 # Convert datetime to extract month
 df['month'] = pd.to_datetime(df['datetime'], dayfirst=True).dt.month
