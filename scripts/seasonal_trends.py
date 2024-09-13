@@ -15,3 +15,19 @@ monthly_avg = df.groupby('month').agg({
 
 # Print monthly averages
 print(monthly_avg)
+
+# Plot seasonal trends
+plt.figure(figsize=(10, 5))
+
+# Plot average temperature
+plt.plot(monthly_avg['month'], monthly_avg['temp'], label='Average Temperature (°C)', color='r', marker='o')
+
+# Plot average rainfall
+plt.plot(monthly_avg['month'], monthly_avg['precip'], label='Average Rainfall (mm)', color='b', marker='o')
+
+plt.xlabel('Month')
+plt.title('Seasonal Trends in Chennai')
+plt.xticks(monthly_avg['month'], ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'])
+plt.legend()
+plt.grid(True)
+plt.show()
